@@ -1,2 +1,3 @@
-# pelanduk
-Pemodelan Data Penduduk
+# Pelanduk: Pemodelan Data Penduduk
+Paket ini membantu pengguna memilih model matematika dan parameternya yang paling sesuai dengan data penduduk tahunan yang dianalisis pengguna.  Di antara model-model yang menjadi kandidat untuk dipilih adalah model aritmatik, model geometrik,model eksponensial, dan model logistik. Dalam menemukan model yang terbaik, paket ini memilah data menjadi data latihan dan data ujian, lalu menemukan parameter setiap model dengan data latihan dengan regresi,  lalu menguji akurasi model itu dengan data ujian. Model yang paling akurat lalu diregresi kembali dengan data lengkap untuk mendapatkan parameter terbaik model. Model dengan parameter terbaik ini lalu digunakan untuk proyeksi penduduk pada tahun-tahun yang diminta pengguna. 
+
